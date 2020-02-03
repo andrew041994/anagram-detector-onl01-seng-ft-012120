@@ -1,5 +1,5 @@
 class Anagram
-  attr_accessor 
+  attr_accessor
   @@matches = []
     def initialize(word)
       @word = word
@@ -8,12 +8,12 @@ class Anagram
 
     def word=(word)
       @word = word
-      
+
     end
 
      def word
        @word
-       
+
      end
 
 
