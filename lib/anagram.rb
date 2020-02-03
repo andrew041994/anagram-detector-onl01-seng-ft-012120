@@ -8,13 +8,12 @@ class Anagram
 
     def match(array)
       a = @word.split("").sort
-      print a
-      # array.each do |i|
-        # puts i.split("").sort
-        # if i.split("").sort == @word.split("").sort
-        # @@matches << i
-        # end
-      # end
+
+      array.each do |i|
+        if i.split("").sort == a
+        @@matches << i
+        end
+      end
     end
-    # @@matches
+    @@matches
   end
