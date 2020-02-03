@@ -1,10 +1,20 @@
 class Anagram
-  attr_accessor :word
+  attr_accessor 
   @@matches = []
-    def initialize
+    def initialize(word)
       @word = word
 
     end
+
+    def word=(word)
+      @word = word
+      
+    end
+
+     def word
+       @word
+       
+     end
 
 
     def match(array)
