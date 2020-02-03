@@ -11,8 +11,8 @@ class Anagram
         puts i
         # if i.split("").sort == @word.split("").sort
         # @@matches << i
-        end
+        # end
       end
     end
-    @@matches
+    # @@matches
   end
